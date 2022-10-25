@@ -60,7 +60,7 @@ while x1:
             C1=CAR(br,mo)
         while x2:
             m=menu(men)[0]
-            if m==6: break
+            if m==5: break
             if m==1: CAR.color=ent('цвет')
             elif m==2: CAR.engine=ent('двигатель')
             elif m==3: CAR.transmission=menu(trns)[1]
